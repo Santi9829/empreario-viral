@@ -1,0 +1,12 @@
+{%extends 'base.html'%}
+{%block titulo%}Principal{%endblock%}
+{%block content%}
+	<h4>Bienvenido</h4>
+	{% if request.user.is_superuser%}
+		<h5>Usted es un super usuario</h5>
+	{% endif %}
+	{% if request.user.is_staff%}
+		<h5>Usted es un Staff</h5>
+	{% endif %}
+	<h1>{{referencia}} {{date}}</h1>
+{%endblock%}
