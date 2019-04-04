@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/Office-image.jpg);
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+h2{
+    font-weight: bold;
+    font-family: 'Laila', serif;
+}
+
+p{
+    font-family: 'Laila', serif;
+}
+
+.title{
+    
+    width: 80%;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+.formulario{
+    background-color: rgba(255, 255, 255, .8);
+    height: 110vh;
+    max-width: 400px;
+}
+
+.formulario .header .row{
+    width: 100%;
+    margin: auto;
+}
+
+.formulario .form{
+    
+    margin: 20px auto auto auto;
+    width: 80%;
+}
+
+.formulario .form form div input[type="text"]{
+    width: 100%;    
+}
+
+.formulario .form form div input[type="email"]{
+    width: 100%;    
+}
+
+.formulario .form form div input[type="password"]{
+    width: 100%;    
+}
+
+.formulario .form form button{
+    width: 100%;
+    margin: 50px auto auto auto  ;
+}
+
+
+.formulario .login{
+    width: 80%;
+    margin-top: 25px;
+    margin-left: 15%;
+    margin-right: auto;
+    padding-top: 10px;
+}
+
