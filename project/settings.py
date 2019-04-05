@@ -44,6 +44,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     #App mias
     'principal',
+    #App Terceros
+    'registration'
 ]
 
 MIDDLEWARE = [
@@ -69,7 +71,6 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
-                'project.context_processors.'
             ],
         },
     },
@@ -104,7 +105,9 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
+#Setting registration
+ACCOUNT_ACTIVATION_DAYS = 7
+REGISTRATION_DEFAULT_FROM_EMAIL = "example@dominio.com"
 # Internationalization
 # https://docs.djangoproject.com/en/2.1/topics/i18n/
 
