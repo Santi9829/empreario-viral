@@ -1,0 +1,501 @@
+body{
+    margin: 0;
+
+}
+
+
+/*--------------------------------PRESENTATION----------------------------------------------*/
+
+.presentation{
+    background-color: rgba(0, 0, 0, .8);
+    padding-top: 5%;
+    width: 100%;
+    position: relative;
+    height: 1000px;
+    
+
+}
+
+.presentation .content{
+    /*---------Posicionamiento--------------*/
+    position: absolute;
+    width: 80%;
+    max-width: 700px;
+    top: 20%;
+    left: 50%;
+    margin-left: -25%;
+    
+    /*----------Texto----------------------*/
+    text-align: center;    
+    font-family: 'Fira Sans', sans-serif;
+    color: white;    
+}
+
+.presentation .content .imagen img{
+    position: relative;
+    width: 900px;
+    margin: 0 0 0 -15%;
+
+    
+}
+
+
+/*-------------------------------------FEATURES------------------------------------------------------------*/
+
+.features .row{
+
+    width: 90%;
+    margin: 2% 0 0 5%;
+    
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+    color: black;    
+    
+    
+
+}
+
+.features .row.lon div{
+    
+    margin: auto;
+    background-color: white;    
+    
+    
+}
+
+.features .row div{
+    background-color:  rgba(156, 148, 148, .3);
+    margin-left: 6%;
+    max-width: 100%;
+    
+    
+}
+
+.features .row div h3{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Laila', serif;
+
+}
+
+.features .row.lon div p{
+    max-width: 600px;
+    margin: auto;
+    
+}
+
+
+/*--------------------------------Streamline---------------------------------------------*/
+
+.streamline .row{
+    width: 80%;
+    margin: 100px auto auto auto;
+    
+}
+
+.streamline .row div{
+    margin-left: 20px;
+    font-family: 'Laila', serif;
+    
+}
+
+.streamline .row div h3{
+    font-weight: bold;
+}
+
+.streamline .row div p{
+    font-family: 'Fira Sans', sans-serif;
+    
+}
+
+/*-----------------------------Photography--------------------------------------------------*/
+
+.photography .row{    
+    width: 90%;
+    margin-left: 5%;
+    position: relative;
+}
+.photography .row .imagenes{
+    position: absolute;
+}
+
+/*---------------------------imagenes posicionamiento del 1 al 6*------------------------*/
+
+.photography .row .imagenes.principal{
+    left: 50%;
+    margin-left: -400px;
+    
+}
+
+.photography .row .imagenes.i1{
+    left: 270px;
+    border-radius: 10%;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.photography .row .imagenes.i2{
+    top: 150px;
+    left: -50px;
+    border-radius: 10%;
+    box-shadow: 10px 10px 5px grey;
+}
+.photography .row .imagenes.i3{
+    top: 350px;
+    left: 150px;  
+    border-radius: 10%;
+    box-shadow: 10px 10px 5px grey;
+}
+.photography .row .imagenes.i4{
+    left: 75%;     
+    top: 200px;
+    border-radius: 10%;
+    box-shadow: 10px 10px 5px grey;
+}
+.photography .row .imagenes.i5{
+    left: 90%;     
+    top: 50px;
+    border-radius: 10%;
+    box-shadow: 10px 10px 5px grey;
+}
+.photography .row .imagenes.i6{
+    left: 90%;     
+    top: 450px;
+    border-radius: 10%;
+    box-shadow: 10px 10px 5px grey;
+}
+
+
+/*----------------------------------------DESCRIPTION------------------------------------------------------------------*/
+
+.description{
+
+    margin: 70% auto auto auto;
+    width: 80%;
+    max-width: 1000px;
+    text-align: center;
+}
+
+.description .row .title{
+    font-family: 'Laila', serif;
+}
+
+.description .row .text{
+    margin-top: 2%;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+/*----------------------------------------Ready to try------------------------------------------------------------------*/
+
+.ready{
+    margin: 5% auto auto auto;
+    width: 80%;
+    text-align: center;
+}
+
+.ready .row .text{
+    max-width: 50%;
+    margin: auto;
+}
+
+/*--------------------------------------Formulario----------------------------------------------------------------------*/
+.formulario{
+    width: 80%;
+    margin: 50px auto 100px auto;
+    
+}
+
+.formulario form{
+    margin: auto;
+    width: 60%;
+}
+
+.formulario form div{
+    width: 100%;
+}
+
+.formulario form div input[type="email"]{
+    width: 80%;
+}
+
+.formulario form div input[type="button"]{
+    width: 20%;
+}
+
+.formulario form div input[type="button"]:hover{
+    border-style: groove;
+    border-width: 2px;
+    border-color: aqua;
+}
+
+.formulario form div input[type="button"]:active{
+    color: red;
+}
+
+
+/*--------------------------------------Footer--------------------------------------------*/
+
+footer{
+    background-color: rgba(149, 149, 149, .2);    
+}
+
+footer .other{
+    color: white;
+}
+
+
+
+
+@media(max-width:1080px){
+
+/*--------------------------------PRESENTATION----------------------------------------------*/
+    .presentation .content{
+        max-width: 90%;
+        left: 35%;
+    }    
+
+    .presentation .content .imagen img{
+        width: 600px;
+        margin: 0 0 0 0;
+    }
+
+/*--------------------------------Streamline---------------------------------------------*/
+    .streamline .row div.img img{
+        width:500px;
+        
+    }
+
+/*------------------------------Formulario----------------------------------------------*/
+    .formulario form div  input[type = "email"]{
+        width: 100%;
+    }
+
+    .formulario form div  input[type = "button"]{
+        width: 100%;
+    }
+
+}
+
+@media(max-width:991px){
+
+/*--------------------------------PRESENTATION----------------------------------------------*/
+    .presentation .content{
+        max-width: 90%;
+        left: 35%;
+    }    
+
+    .presentation .content .imagen img{
+        width: 600px;
+        margin: 0 0 0 0;
+    }
+
+    /*-----------------------------Photography--------------------------------------------------*/
+    
+    .photography .row .imagenes.principal{
+        margin-left: -350px;
+    }
+    .photography .row .imagenes.principal img{
+        width: 700px;
+    }
+    .photography .row .imagenes.ot img{
+        display: none;       
+    }
+
+/*-------------------------------Formulario---------------------------------------------------*/
+
+    .formulario form div  input[type = "email"]{
+        width: 100%;
+    }
+
+    .formulario form div  input[type = "button"]{
+        width: 100%;
+    }
+
+
+
+}
+
+@media(max-width:767px){
+
+/*--------------------------------PRESENTATION----------------------------------------------*/
+    .presentation .content{
+        max-width: 70%;
+        left: 40%;
+    }
+
+    .presentation .content .imagen img{
+        width: 500px;
+        margin: 0 0 0 0;
+    }
+
+/*-----------------------------Photography--------------------------------------------------*/
+    
+    .photography .row .imagenes.principal{
+        margin-left: -300px;
+    }
+    .photography .row .imagenes.principal img{
+        width: 600px;
+    }
+    .photography .row .imagenes.ot img{
+        display: none;       
+    }
+
+
+/*--------------------------Formulario-----------------------------------------------------*/
+
+    .formulario form div  input[type = "email"]{
+        width: 100%;
+    }
+
+    .formulario form div  input[type = "button"]{
+        width: 100%;
+    }
+    
+
+}
+
+@media(max-width:600px){
+
+/*--------------------------------PRESENTATION----------------------------------------------*/
+
+    .presentation .content{
+        max-width: 70%;
+        left: 40%;
+        
+    }
+
+    .presentation .content .imagen img{
+        width: 400px;
+        margin: 0 0 0 0;
+        
+    }
+
+/*--------------------------------Streamline---------------------------------------------*/
+    .streamline .row div.img{
+        display: none;
+    }
+
+/*-----------------------------Photography--------------------------------------------------*/
+    
+    .photography .row .imagenes.principal{
+        margin-left: -200px;
+    }
+    .photography .row .imagenes.principal img{
+        width: 400px;
+    }
+    .photography .row .imagenes.ot{
+        display: none;
+    }
+
+/*---------------------------FORMULARIO-----------------------------------------------------*/    
+    .formulario form div  input[type = "email"]{
+        width: 100%;
+    }
+
+    .formulario form div  input[type = "button"]{
+        width: 100%;
+    }
+
+}
+
+
+@media(max-width:500px){
+
+/*--------------------------------PRESENTATION----------------------------------------------*/
+    .presentation .content{
+        max-width: 60%;
+        left: 50%;
+        margin-left: -30%;        
+        
+    }
+
+    .presentation .content p{
+        margin-top: 30%;
+    }
+
+
+    .presentation .content .imagen img{
+     display: none;  
+
+    }    
+
+
+    .presentation .content .imagen.img{
+        width: 500px;
+        margin: 0 0 0 0;
+        
+    }
+
+/*-----------------------------Photography--------------------------------------------------*/
+    .photography .row .imagenes.principal{
+        margin-left: -150px;
+    }
+    .photography .row .imagenes.principal img{
+        width: 300px;
+    }
+
+/*---------------------------FORMULARIO-----------------------------------------------------*/    
+    .formulario form div  input[type = "email"]{
+        width: 100%;
+    }
+
+    .formulario form div  input[type = "button"]{
+        width: 100%;
+    }
+    
+
+
+
+
+
+}
+
+
+@media(max-width:360px){
+
+/*--------------------------------PRESENTATION----------------------------------------------*/
+
+    .presentation .content{
+        max-width: 50%;
+        left: 50%;
+        margin-left: -30%;        
+
+        text-align: center;
+        
+    }
+
+    .presentation .content h1{
+        font-size: 30px;
+        margin-left: 20%;
+    }
+
+    .presentation .content p{
+        margin-top: 30%;
+        margin-left: 20%;
+    }
+
+
+    .presentation .content .imagen img{
+     display: none;  
+
+    }
+
+/*-----------------------------Photography--------------------------------------------------*/
+    .photography .row .imagenes.principal{
+        margin-left: -125px;
+    }
+    .photography .row .imagenes.principal img{
+        width: 250px;
+    }
+/*--------------------------------------Formulario----------------------------------------------------------------------*/
+
+    .formulario form div  input[type = "email"]{
+        width: 100%;
+    }
+
+    .formulario form div  input[type = "button"]{
+        width: 100%;
+    }
+
+
+}
+
